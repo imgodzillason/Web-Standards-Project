@@ -11,14 +11,14 @@ WSP COMPONENT LIBRARY STYLESHEET
 
 /* COMPONENTS SPECIFIC ======================================== */
 body {
-    background: #000000;
+    background: #5F9EA0;
     max-width: 90%;
     font-size: 1em;
     margin: 0 auto;
 }
 
 #wrapper {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     width:91.666666666666%;
     margin: 0 auto;
     overflow: hidden;
@@ -27,7 +27,6 @@ body {
 header{
     font-family: 'Amatic SC', cursive;
     color: #000000  ;
-    background-color:whitesmoke;
 }
 
 header img{
@@ -47,19 +46,18 @@ header p{
 }
 
 h1{
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 3.5em;
     text-align:center;
     padding-top:2%;
-    color:#FFFFFF;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#000000;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size:2em;
     color: #000000;
-    padding-bottom:1%;
+    padding-bottom:2%;
     clear:both;
 }
 
@@ -86,5 +84,40 @@ section h2{
 
 section img{
     padding-bottom:2%;
-    max-width:50%;
+    max-width:60%;
+}
+
+section p{
+    padding-bottom:2%;
+}
+
+hr{
+    margin-top:5%;
+    margin-bottom: 3%;
+    background-color:#000000;
+}
+
+.myButton {
+    box-shadow: 0 10px 14px -7px #3e7327;
+    background-color:#77b55a;
+    border-radius:6px;
+    border:1px solid #4b8f29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 20px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#72b352;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+#first{
+    padding-top:30%;
 }
