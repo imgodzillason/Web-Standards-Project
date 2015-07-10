@@ -73,6 +73,11 @@ body {
     overflow: hidden;
 }
 
+strong{
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
 /* HEADER ======================================== */
 
 header{
