@@ -58,7 +58,7 @@ table {
     border-spacing: 0;
 }
 
-
+/* MAIN STYLES ======================================== */
 body {
     background: #5F9EA0;
     max-width: 90%;
@@ -73,26 +73,32 @@ body {
     overflow: hidden;
 }
 
+/* HEADER ======================================== */
+
 header{
     font-family: 'Amatic SC', cursive;
-    color: #000000  ;
+    color: #000000;
+    background-color:white;
 }
 
 header img{
+    background-color:black;
+    border: .5em solid black;
     width:25%;
     border-radius:15em;
-    padding-top:1%;
-    padding-left:3%;
-    float:left;
+    margin-top:1%;
+    margin-left:3%;
 }
 
 header p{
     float:left;
     font-family:sans-serif;
     width:60%;
-    padding-top:10%;
-    padding-left:7%;
+    margin-top:10%;
+    margin-left:5%;
 }
+
+/* FONTS ======================================== */
 
 h1{
     font-family: 'Oswald', sans-serif;
@@ -110,16 +116,7 @@ h2 {
     clear:both;
 }
 
-h1+h2{
-    text-align:center;
-    font-size:1.5em;
-    padding-top:0;
-}
-
-
-article p:last-of-type, article p:nth-of-type(3), article p:nth-of-type(4){
-    padding-bottom:2%;
-}
+/* BLOG SECTION ======================================== */
 
 section {
     width: 90%;
@@ -128,7 +125,6 @@ section {
 }
 
 section h2{
-    padding-top:2%;
 }
 
 section img{
@@ -145,6 +141,12 @@ hr{
     margin-bottom: 3%;
     background-color:#000000;
 }
+
+#first{
+    padding-top:3%;
+}
+
+/* BUTTON ======================================== */
 
 .myButton {
     box-shadow: 0 10px 14px -7px #3e7327;
@@ -167,10 +169,8 @@ hr{
     top:1px;
 }
 
-#first{
-    padding-top:30%;
-}
-
 .headerImage img{
-    width:20%;
+    width:30%;
+    padding-top:1%;
+    padding-bottom:2%;
 }
