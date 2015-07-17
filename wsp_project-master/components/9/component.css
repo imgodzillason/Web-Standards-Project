@@ -5,4 +5,38 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
-/* HEADER ======================================== */
+header{
+    text-align:center;
+}
+
+header p{
+    padding-top:10%;
+}
+
+header h1{
+    padding-top:3%;
+    text-transform:uppercase;
+}
+
+header h2{
+    padding-top:2%;
+    padding-bottom:2%;
+    text-transform:uppercase;
+}
+
+header img{
+    margin-top:2%;
+}
+
+.myButton{
+    background:orangered;
+    color:white;
+    text-decoration:none;
+    padding:1% 2%;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.myButton:hover{
+    background:darkorange;
+}

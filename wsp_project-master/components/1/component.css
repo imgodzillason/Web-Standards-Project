@@ -3,6 +3,102 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+
+/* CALL TO ACTION ======================================== */
+
+body{
+    background-image:url("/components/1/component.jpg");
+    padding-top:1%;
+    padding-left:1%;
+}
+
+.cta1{
+    width:100%;
+    padding-bottom:1%;
+}
+
+.cta1 .myButton{
+    background-color:#44c767;
+    border-radius:23px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size:17px;
+    padding:16px 3px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #2f6627;
+    position:absolute;
+    top:50px;
+    left:530px;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:absolute;
+    top:50px;
+    left:530px;
+}
+
+.cta2{
+    width:100%;
+    display:inline;
+    margin-right:16px;
+}
+
+.cta2 .myButton2{
+    background-color:#44c767;
+    border-radius:23px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size:17px;
+    padding:16px 3px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #2f6627;
+    position:absolute;
+    top:185px;
+    left:230px
+}
+
+.myButton2:hover {
+    background-color:#5cbf2a;
+}
+.myButton2:active {
+    position: absolute;
+    top: 185px;
+    left: 230px;
+}
+
+.cta3{
+    width:100%;
+    display:inline;
+}
+
+.cta3 .myButton3{
+    background-color:#44c767;
+    border-radius:23px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size:17px;
+    padding:16px 3px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #2f6627;
+    position:absolute;
+    top:185px;
+    left:530px
+}
+
+.myButton3:hover {
+    background-color:#5cbf2a;
+}
+.myButton3:active {
+    position: absolute;
+    top: 185px;
+    left: 530px;
+}

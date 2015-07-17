@@ -3,6 +3,45 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+/* CONTACT ======================================== */
+
+body{
+    background:url("/components/3/component.jpg");
+}
+
+.address{
+    background:lightblue;
+    width:30%;
+    height:200px;
+    margin-left:2%;
+    margin-top:2%;
+    display:inline-block;
+}
+
+.address img{
+    float:left;
+    margin-left:10%;
+    margin-top:13%;
+    margin-right:15%;
+}
+
+
+.cta h3{
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
+    margin-top:2%;
+    text-transform: uppercase;
+}
+
+.cta p{
+    text-align:center;
+    margin-top:10%;
+    text-transform: uppercase;
+}
+.cta p:nth-child(3){
+    font-style:italic;
+    margin-top:1%;
+    text-transform: none;
+}

@@ -3,6 +3,34 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* FEATURES ======================================== */
 
-/* HEADER ======================================== */
+.features{
+    padding-left:2%;
+    width:80%;
+    margin:0 auto;
+}
+
+.features p{
+    font-size:1em;
+}
+
+.features h3{
+    font-weight:bold;
+    padding-top:5%;
+}
+
+.features img{
+    width:60%;
+    display:inline-block;
+    border-radius:3em;
+    margin-bottom:2%;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6{
+    width:15%;
+    float:left;
+    padding-top:2%;
+    margin-right:1%;
+    text-align:center;
+}

@@ -3,6 +3,39 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* ABOUT ======================================== */
 
-/* HEADER ======================================== */
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+}
+
+.arrow-right {
+    border-left: 15px solid #000;
+    right: -500px;
+    top:0;
+}
+
+.arrow-left {
+    border-right: 15px solid #000;
+    left: -500px;
+}
+
+.container {
+    margin: 15% auto;
+    font-size: 24px;
+    position: relative;
+    width: 15em;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2{
+    font-weight:bold;
+    font-size:2em;
+}

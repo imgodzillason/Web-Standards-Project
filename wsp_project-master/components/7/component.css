@@ -3,6 +3,68 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* LOGIN FORM ======================================== */
 
-/* HEADER ======================================== */
+.login {
+    background: #000;
+    color:#fff;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 300px;
+    margin: 200px auto 0;
+    width: 350px;
+    text-align:center;
+}
+
+input[type="password"], input[type="text"] {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #696969;
+    height: 39px;
+    margin: 31px 0 0 0;
+    padding-left: 18%;
+    width: 200px;
+
+}
+
+input[type="submit"] {
+    width:200px;
+    height:45px;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0 #37a69b;
+    padding-top:6px;
+    margin: 29px 0 0 0;
+    position:relative;
+    cursor:pointer;
+    border: none;
+    background:linear-gradient(to top, #476e9e 15%, #7892c2 100%);
+    border-radius:5px;
+}
+
+.forgot {
+    width:200px;
+    height:35px;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    color:darkgray;
+    text-decoration:none;
+    text-align:center;
+    padding:6px;
+    margin: 29px 0 0 0;
+    position:relative;
+    cursor:pointer;
+    border: none;
+    background-color: lightgray;
+    border-radius:5px;
+}
+
+.forgot:hover{
+    background:blue;
+    color:white;
+}
+

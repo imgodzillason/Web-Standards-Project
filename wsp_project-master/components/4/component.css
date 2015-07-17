@@ -3,6 +3,36 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+/* NAVIGATION ======================================== */
+
+
+a{
+    display:inline-block;
+    width:150px;
+    text-align:center;
+}
+
+nav ul{
+    padding-top:3%;
+    text-decoration:none;
+    margin:0;
+}
+
+nav li{
+    width:100px;
+    margin:auto;
+    display:inline;
+    padding:1%;
+    font-size:1.2em;
+    background-color:whitesmoke;
+}
+
+nav li:hover{
+    background:gold;
+}
+
+nav li a{
+    color:black;
+    text-transform:uppercase;
+}
