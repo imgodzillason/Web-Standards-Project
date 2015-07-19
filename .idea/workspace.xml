@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d15ba4-f1d2-4e63-a397-4440a18393a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/1/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/1/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/10/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/10/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/2/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/2/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/3/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/3/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/4/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/4/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/5/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/5/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/6/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/6/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/7/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/7/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/8/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/8/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/9/component.css" afterPath="$PROJECT_DIR$/wsp_project-master/components/9/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/1/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/1/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/10/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/10/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/2/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/2/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/3/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/3/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/4/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/4/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/5/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/5/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/6/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/6/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/7/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/7/component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/8/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/8/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/components/9/component.html" afterPath="$PROJECT_DIR$/wsp_project-master/components/9/component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsp_project-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/wsp_project-master/.idea/workspace.xml" />
     </list>
     <ignored path="Web-Standards-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsp_project-master/components/10/component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7222222">
+            <state vertical-scroll-proportion="-21.125">
               <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsp_project-master/index.html">
+      <file leaf-file-name="component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsp_project-master/components/8/component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44871795">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -88,9 +68,9 @@
         <option value="$PROJECT_DIR$/wsp_project-master/components/5/component.html" />
         <option value="$PROJECT_DIR$/wsp_project-master/components/6/component.html" />
         <option value="$PROJECT_DIR$/wsp_project-master/components/7/component.html" />
-        <option value="$PROJECT_DIR$/wsp_project-master/components/8/component.html" />
         <option value="$PROJECT_DIR$/wsp_project-master/components/9/component.html" />
         <option value="$PROJECT_DIR$/wsp_project-master/components/10/component.html" />
+        <option value="$PROJECT_DIR$/wsp_project-master/components/8/component.html" />
       </list>
     </option>
   </component>
@@ -168,6 +148,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web-Standards-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web-Standards-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsp_project-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,6 +415,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wsp_project-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32051283">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wsp_project-master/components/9/component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06410257">
@@ -421,26 +431,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsp_project-master/components/8/component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsp_project-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsp_project-master/components/10/component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7222222">
+        <state vertical-scroll-proportion="-21.125">
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsp_project-master/components/8/component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44871795">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
