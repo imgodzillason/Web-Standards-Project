@@ -4,6 +4,55 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* NEWSLETTER ======================================== */
+
+section{
+    background:#0066cc;
+    width:50%;
+    margin-top:5%;
+    margin-left:5%;
+}
+
+section section:nth-child(1) img{
+    float:left;
+    margin-top:12%;
+    margin-right:5%;
+}
+
+section section:nth-child(1) h2:first-of-type{
+    text-transform:uppercase;
+    padding-top:15%;
+    font-size:3em;
+    font-weight:700;
+    color:#333333;
+    letter-spacing: 2px;
+}
+
+h2{
+    text-transform:uppercase;
+    color:#333333;
+    letter-spacing:7px;
+    font-weight:700;
+}
+
+p{
+    color:white;
+    width:100%;
+    font-size:1em;
+}
+
+address{
+    color:white;
+}
+
+section section:nth-child(3) img{
+    padding-right:2%;
+}
+
+section section:nth-child(3){
+    float:right;
+    width:30%;
+}
+
 /*
 h1{
     vertical-align:top;
