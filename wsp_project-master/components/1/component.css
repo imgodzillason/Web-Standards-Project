@@ -6,100 +6,66 @@ COMPONENT STYLESHEET
 
 
 /* CALL TO ACTION ======================================== */
-/*
-body{
-    background-image:url("/components/1/component.jpg");
-    padding-top:1%;
-    padding-left:1%;
+
+section{
+    padding:5%;
 }
 
-.cta1{
-    width:100%;
-    padding-bottom:1%;
+h2{
+    color:white;
+    font-size:2.5em;
+    padding-left:5%;
+    position:relative;
+    top:20%;
 }
 
-.cta1 .myButton{
-    background-color:#44c767;
-    border-radius:23px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial, sans-serif;
-    font-size:17px;
-    padding:16px 3px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #2f6627;
-    position:absolute;
-    top:50px;
-    left:530px;
-}
-.myButton:hover {
-    background-color:#5cbf2a;
-}
-.myButton:active {
-    position:absolute;
-    top:50px;
-    left:530px;
+p{
+    color:#996633;
+    font-size:1.2em;
+    padding-left:5%;
+    position:relative;
+    top:20%;
 }
 
-.cta2{
-    width:100%;
-    display:inline;
-    margin-right:16px;
+article:nth-child(1){
+    background:url("images/food1.jpg");
+    border:1px solid black;
+    max-width:580px;
+    height:120px;
+    margin-bottom:1%;
 }
 
-.cta2 .myButton2{
-    background-color:#44c767;
-    border-radius:23px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial, sans-serif;
-    font-size:17px;
-    padding:16px 3px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #2f6627;
-    position:absolute;
-    top:185px;
-    left:230px
+article:nth-child(2), article:nth-child(3){
+    border:1px solid black;
+    width:283px;
+    height:112px;
+    float:left;
 }
 
-.myButton2:hover {
-    background-color:#5cbf2a;
-}
-.myButton2:active {
-    position: absolute;
-    top: 185px;
-    left: 230px;
+article:nth-child(2)::after, article:nth-child(3)::after{
+    content:"";
+    display:table;
+    clear:both;
 }
 
-.cta3{
-    width:100%;
-    display:inline;
+article:nth-child(2){
+    background: url("images/food2.jpg");
+    margin-right:1%;
 }
 
-.cta3 .myButton3{
-    background-color:#44c767;
-    border-radius:23px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial, sans-serif;
-    font-size:17px;
-    padding:16px 3px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #2f6627;
-    position:absolute;
-    top:185px;
-    left:530px
+article:nth-child(3){
+    background: url("images/food3.jpg");
 }
 
-.myButton3:hover {
-    background-color:#5cbf2a;
+.cta-button img{
+    background:orange;
+    border-radius:50%;
+    padding:1%;
+    float:right;
 }
-.myButton3:active {
-    position: absolute;
-    top: 185px;
-    left: 530px;
+
+.cta-button img::after{
+    content:"";
+    display:table;
+    clear:both;
 }
-*/

@@ -5,6 +5,32 @@ COMPONENT STYLESHEET
 
 
 /* CONTACT ======================================== */
+
+section:nth-child(1){
+    background:lightblue;
+    width:30%;
+    height:200px;
+    float:left;
+}
+
+section:nth-child(1) img{
+    float:left;
+    max-width:80%;
+    margin:0 0 10px 10px;
+}
+
+section:nth-child(2){
+    background:lightblue;
+    display:inline-block;
+    width:30%;
+}
+
+section:nth-child(3){
+    background:lightblue;
+    float:right;
+    width:30%;
+}
+
 /*
 body{
     background:url("/components/3/component.jpg");
