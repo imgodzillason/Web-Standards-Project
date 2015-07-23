@@ -4,79 +4,49 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* FOOTER ======================================== */
-/*
 
-.grid {
-    background-color:whitesmoke;
-    width: 100%;
-    margin: auto;
-}
-
-.grid-m1 {
-    float: left;
-    width: 24px;
-    height: 1px;
-}
-
-.grid-c1 {
-    float: left;
-    width: 30%;
-}
-
-.grid-c1 p{
-    width:30%;
-}
-
-.grid-m2 {
-    float: left;
-    width: 16px;
-    height: 1px;
-}
-
-.grid-c2 {
-    float: left;
-    width: 30%;
-}
-
-.grid-m3 {
-    float: left;
-    width: 16px;
-    height: 1px;
-}
-
-.grid-c3 {
-    float: left;
-    width: 30%;
-}
-
-.grid-c3 .subscribe{
+footer{
+    width:90%;
     border:1px solid black;
-    background-color:white;
-    width:299px;
-    height:32px;
+    background:black;
+    margin:1%;
+    padding-left:5%;
+}
+
+footer h3{
+    color:white;
+}
+
+footer p{
+    color:gray;
+}
+
+footer address{
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+}
+
+a{
+    color:gray;
+}
+
+footer section:nth-child(n+1){
+    float:left;
+    margin:0 20px 0 0;
+    width:200px;
+}
+::after{
+    content:"";
+    display:table;
+    clear:both;
 }
 
 h3{
-    font-size:1.5em;
-    margin-bottom:2%;
+    text-transform:uppercase;
 }
 
-.myButton {
-    background-color:#000000;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    padding:8px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #2f6627;
-    margin-left:2%;
-}
-.myButton:hover {
-    background-color:#FF4500;
-}
-.myButton:active {
-    position:relative;
-    top:1px;
+img{
+    margin-top:3%;
+    border:1px solid gray;
 }
