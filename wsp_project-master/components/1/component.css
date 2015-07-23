@@ -57,6 +57,20 @@ article:nth-child(3){
     background: url("images/food3.jpg");
 }
 
+article:nth-child(1) .cta-button img, article:nth-child(2) .cta-button img, article:nth-child(3) .cta-button img{
+    float:right;
+    margin-right:8%;
+    margin-top:-2%;
+    background:#ff6633;
+    padding:1%;
+    border-radius:50%;
+}
+
+article:nth-child(1) .cta-button img:hover{
+    background:black;
+}
+
+/*
 .cta-button img{
     background:orange;
     border-radius:50%;
@@ -69,3 +83,4 @@ article:nth-child(3){
     display:table;
     clear:both;
 }
+*/
