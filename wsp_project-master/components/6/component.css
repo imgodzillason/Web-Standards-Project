@@ -40,6 +40,10 @@ p{
     font-size:1em;
 }
 
+a{
+    color:#053b64;
+}
+
 address{
     color:white;
 }
@@ -51,44 +55,4 @@ section section:nth-child(3) img{
 section section:nth-child(3){
     float:right;
     width:30%;
-}
-
-/*
-h1{
-    vertical-align:top;
-    font-size:2em;
-    color:black;
-    padding-top:1%;
-}
-
-p{
-    padding-top:1%;
-    float:left;
-    display:block;
-    clear:both;
-}
-
-p:nth-child(5){
-    padding-top:4%;
-}
-
-.wrapper{
-    background:royalblue;
-    color:white;
-    width:50%;
-    height:300px;
-    padding-left:1%;
-}
-
-a{
-    color:lightblue;
-}
-
-.socialicons{
-    float:right;
-    padding-right:12%;
-}
-
-.socialicons img{
-    padding-right:5px;
 }

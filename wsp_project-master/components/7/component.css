@@ -6,14 +6,38 @@ COMPONENT STYLESHEET
 /* LOGIN FORM ======================================== */
 
 section{
-    background: #000;
+    background:linear-gradient(to bottom, #2f2f2f 15%, #000000 100%);
     color:#fff;
     border: 1px solid #42464b;
-    border-radius: 6px;
-    height: 300px;
+    border-radius: 10px;
+    height: 320px;
     margin: 200px auto 0;
-    width: 350px;
+    width: 330px;
     text-align:center;
+}
+
+h2{
+    background:#000000;
+    padding-bottom:5%;
+    letter-spacing: -1px;
+    word-spacing: -4px;
+    font-size:1.5em;
+    font-family:sans-serif;
+    font-weight:700;
+    border-radius:10px 10px 0 0;
+
+}
+
+.control{
+    color:#f2f2f2;
+}
+
+.panel{
+    color:#d3d3d3
+}
+
+.login{
+    color:#72b9db;
 }
 
 input[type="password"], input[type="text"] {
@@ -36,7 +60,6 @@ input[type="submit"] {
     color:#fff;
     text-decoration:none;
     text-align:center;
-    text-shadow:1px 1px 0 #37a69b;
     padding-top:6px;
     margin: 29px 0 0 0;
     position:relative;

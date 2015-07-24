@@ -7,7 +7,7 @@ COMPONENT STYLESHEET
 /* CONTACT ======================================== */
 
 body{
-    background:lightblue;
+    background:#f4f6fe;
     margin:auto;
 }
 
@@ -16,7 +16,7 @@ section{
 }
 
 section section:nth-child(1), section section:nth-child(2), section section:nth-child(3){
-    background:whitesmoke;
+    background:#ffffff;
     border:1px solid black;
     width:25%;
     height:200px;
