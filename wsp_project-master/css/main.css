@@ -38,6 +38,14 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+/* HEADER ======================================== */
+
+header img{
+    width:30%;
+    padding-top:1%;
+    padding-bottom:2%;
+}
+
 /* BODY ======================================== */
 body { line-height: 1; }
 
@@ -80,13 +88,13 @@ strong{
 
 /* HEADER ======================================== */
 
-header{
+#about{
     font-family: 'Amatic SC', cursive;
     color: #000000;
     background-color:white;
 }
 
-header img{
+#about img{
     background-color:black;
     border: .5em solid black;
     width:25%;
@@ -95,7 +103,7 @@ header img{
     margin-left:3%;
 }
 
-header p{
+#about p{
     float:left;
     font-family:sans-serif;
     width:60%;
@@ -129,6 +137,10 @@ section {
     padding-left:2%;
 }
 
+section:first-of-type{
+    padding-top:3%;
+}
+
 section h2{
 }
 
@@ -145,10 +157,6 @@ hr{
     margin-top:5%;
     margin-bottom: 3%;
     background-color:#000000;
-}
-
-#first{
-    padding-top:3%;
 }
 
 /* BUTTON ======================================== */
@@ -172,10 +180,4 @@ hr{
 .myButton:active {
     position:relative;
     top:1px;
-}
-
-.headerImage img{
-    width:30%;
-    padding-top:1%;
-    padding-bottom:2%;
 }
