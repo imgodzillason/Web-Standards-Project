@@ -7,9 +7,15 @@ COMPONENT STYLESHEET
 
 section{
     background:#0066cc;
-    width:50%;
-    margin-top:5%;
+    width:55%;
+    margin-top:3%;
     margin-left:5%;
+    font-family:sans-serif;
+    position:relative;
+}
+
+section:nth-child(1){
+    padding-bottom:2%;
 }
 
 section section:nth-child(1) img{
@@ -34,9 +40,9 @@ h2{
     font-weight:700;
 }
 
-p{
+section p{
     color:white;
-    width:100%;
+    width:200%;
     font-size:1em;
 }
 
@@ -48,11 +54,19 @@ address{
     color:white;
 }
 
+section:nth-child(4) p:last-child{
+    margin-top:2%;
+}
+
+/*--SOCIAL ICONS--*/
+
 section section:nth-child(3) img{
     padding-right:2%;
 }
 
 section section:nth-child(3){
-    float:right;
-    width:30%;
+    width:200px;
+    position:absolute;
+    top:140px;
+    left:450px;
 }
