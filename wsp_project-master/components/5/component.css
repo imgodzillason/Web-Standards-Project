@@ -110,7 +110,7 @@ footer:nth-child(2) p{
     margin-top:5px;
 }
 
-footer:nth-child(2) a, .vertical{
+footer:nth-child(2) a, .vertical, p a{
     float: right;
     margin: 5px 5px 0 5px;
     color: gray;
